@@ -1,9 +1,7 @@
 package webservice
 
 class Message {
-    String text
-    String sender
-    String date
-    static constraints = {
-    }
+	String requestType
+	String params
 }
+
